@@ -1,0 +1,27 @@
+{
+  "name": "JSEngineKit",
+  "version": "0.1.0",
+  "summary": "A short description of JSEngineKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/li/JSEngineKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "li": "xiaopeng.li@neoworld.cloud"
+  },
+  "source": {
+    "git": "https://github.com/li/JSEngineKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JSEngineKit/Classes/**/*",
+  "resource_bundles": {
+    "JSEngineKit": [
+      "JSEngineKit/Assets/*"
+    ]
+  }
+}

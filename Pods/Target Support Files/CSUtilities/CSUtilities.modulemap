@@ -1,0 +1,6 @@
+framework module CSUtilities {
+  umbrella header "CSUtilities-umbrella.h"
+
+  export *
+  module * { export * }
+}

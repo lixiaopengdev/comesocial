@@ -1,0 +1,150 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+
+  lane :tf_come_social do |options|
+
+    update_des = options[:update_des] || ""
+    UI.important(update_des)
+    scheme = 'ComeSocial'
+    xcworkspace = 'ComeSocial'
+    app_identifier = 'com.johnsonsmithn.comesocial.v1'
+  
+    key_id = 'Q9736KQ73F'
+    issuer_id = '3247fb9d-4e66-4301-b815-0c88e53f6705'
+  
+    file = './fastlane/file/smith'
+    key_p8 = file + '/keys/AuthKey_Q9736KQ73F.p8'
+    key_file = file + '/keys'
+    fastlanelog = file + '/log'
+    build = './build/smith'
+    
+    # change build
+    current_time = Time.now.strftime("%m%d%H%M") 
+    increment_build_number(
+      build_number: current_time # set a specific number
+    )
+
+    xcclean(scheme: scheme)
+
+    #sign
+    api_key = app_store_connect_api_key(
+      key_id: key_id,
+      issuer_id: issuer_id,
+      key_filepath: key_p8,
+      duration: 1200, # optional (maximum 1200)
+      in_house: false # optional but may be required if using match/sigh
+    )
+    cert(output_path: key_file, api_key: api_key)
+    sigh(output_path: key_file, readonly: false, adhoc: false, app_identifier: app_identifier)
+
+    #build
+    build_number = get_build_number()
+    out_path = build + "/" + build_number
+    gym(
+      scheme: scheme,
+      export_method: "app-store", 
+      buildlog_path: fastlanelog,
+      output_directory: out_path,
+      include_bitcode: false,
+      configuration: "Release",
+    )
+  
+    # testflight
+    upload_to_testflight(
+      api_key:api_key,
+      app_identifier:app_identifier,
+      skip_submission: false ,
+      changelog: "cn",
+      localized_build_info: {
+        "default": {
+          whats_new: update_des,
+        },
+        "en-GB": {
+          whats_new: update_des,
+        }
+      }
+    )
+  end
+
+  lane :tf_ruleless do |options|
+
+    update_des = options[:update_des] || ""
+    UI.important(update_des)
+    scheme = 'Ruleless'
+    xcworkspace = 'ComeSocial'
+    app_identifier = 'com.neoworld.Ruleless'
+  
+    key_id = '5R3PMNZC78'
+    issuer_id = 'ca5ae665-5ce3-4311-87a1-68e3f907afd2'
+  
+    file = './fastlane/file/neoworld'
+    key_p8 = file + '/keys/AuthKey_5R3PMNZC78.p8'
+    key_file = file + '/keys'
+    fastlanelog = file + '/log'
+    build = './build/newworld'
+    
+    # change build
+    current_time = Time.now.strftime("%m%d%H%M") 
+    increment_build_number(
+      build_number: current_time # set a specific number
+    )
+
+    xcclean(scheme: scheme)
+
+    #sign
+    api_key = app_store_connect_api_key(
+      key_id: key_id,
+      issuer_id: issuer_id,
+      key_filepath: key_p8,
+      duration: 1200, # optional (maximum 1200)
+      in_house: false # optional but may be required if using match/sigh
+    )
+    cert(output_path: key_file, api_key: api_key)
+    sigh(output_path: key_file, readonly: false, adhoc: false, app_identifier: app_identifier)
+
+    #build
+    build_number = get_build_number()
+    out_path = build + "/" + build_number
+    gym(
+      scheme: scheme,
+      export_method: "app-store", 
+      buildlog_path: fastlanelog,
+      output_directory: out_path,
+      include_bitcode: false,
+      configuration: "Release",
+    )
+  
+    # testflight
+    upload_to_testflight(
+      api_key:api_key,
+      app_identifier:app_identifier,
+      skip_submission: false ,
+      changelog: "cn",
+      localized_build_info: {
+        "default": {
+          whats_new: update_des,
+        },
+        "en-GB": {
+          whats_new: update_des,
+        }
+      }
+    )
+  end
+
+end

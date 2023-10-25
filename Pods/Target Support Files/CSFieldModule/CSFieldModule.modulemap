@@ -1,0 +1,6 @@
+framework module CSFieldModule {
+  umbrella header "CSFieldModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

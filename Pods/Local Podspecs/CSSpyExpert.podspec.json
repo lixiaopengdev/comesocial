@@ -1,0 +1,39 @@
+{
+  "name": "CSSpyExpert",
+  "version": "0.2.12",
+  "summary": "A short description of CSSpyExpert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NeoWorldTeam/CSSpyExpert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fuhao": "fangshiyu2@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:NeoWorldTeam/CSSpyExpert.git",
+    "tag": "0.2.12"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.1",
+  "static_framework": true,
+  "source_files": "CSSpyExpert/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "CSUtilities": [
+
+    ],
+    "come_social_media_tools_ios": [
+      "~>0.3.3"
+    ],
+    "WhisperDiarization": [
+      "~>0.3.2"
+    ]
+  },
+  "swift_version": "5.1"
+}

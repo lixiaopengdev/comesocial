@@ -1,0 +1,6 @@
+framework module CSListView {
+  umbrella header "CSListView-umbrella.h"
+
+  export *
+  module * { export * }
+}

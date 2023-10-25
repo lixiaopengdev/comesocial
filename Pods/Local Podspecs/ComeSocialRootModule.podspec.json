@@ -1,0 +1,59 @@
+{
+  "name": "ComeSocialRootModule",
+  "version": "0.1.0",
+  "summary": "A short description of ComeSocialRootModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/ComeSocialRootModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/ComeSocialRootModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "ComeSocialRootModule/Classes/**/*",
+  "resource_bundles": {
+    "ComeSocialRootModule": [
+      "ComeSocialRootModule/Assets/*.xcassets"
+    ]
+  },
+  "dependencies": {
+    "CSMediator": [
+
+    ],
+    "CSBaseView": [
+
+    ],
+    "CSAccountManager": [
+
+    ],
+    "CSWebsocket": [
+
+    ],
+    "AuthManagerKit": [
+
+    ],
+    "DoraemonKit": [
+
+    ],
+    "CSFileKit": [
+
+    ],
+    "CSImageKit": [
+
+    ],
+    "CSPermission": [
+
+    ],
+    "CSTracker": [
+
+    ]
+  }
+}

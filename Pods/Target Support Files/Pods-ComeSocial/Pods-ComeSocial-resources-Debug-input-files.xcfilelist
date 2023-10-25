@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-ComeSocial/Pods-ComeSocial-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/CSFieldModule/CSFieldModule.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/CSLiveModule/CSLiveModule.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SpeakerEmbeddingForiOS/SpeakerEmbedding.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/WhisperDiarization/WhisperDiarization.bundle

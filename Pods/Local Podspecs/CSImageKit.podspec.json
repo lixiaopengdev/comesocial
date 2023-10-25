@@ -1,0 +1,29 @@
+{
+  "name": "CSImageKit",
+  "version": "0.1.0",
+  "summary": "A short description of CSImageKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSImageKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSImageKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSImageKit/Classes/**/*",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "Kingfisher": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

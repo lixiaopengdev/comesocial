@@ -1,0 +1,6 @@
+framework module Pods_ComeSocial {
+  umbrella header "Pods-ComeSocial-umbrella.h"
+
+  export *
+  module * { export * }
+}

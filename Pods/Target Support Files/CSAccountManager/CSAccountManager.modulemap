@@ -1,0 +1,6 @@
+framework module CSAccountManager {
+  umbrella header "CSAccountManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

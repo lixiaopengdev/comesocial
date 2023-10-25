@@ -1,0 +1,59 @@
+{
+  "name": "CSMeModule",
+  "version": "0.1.16",
+  "summary": "A short description of CSMeModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSMeModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSMeModule.git",
+    "tag": "0.1.16"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSMeModule/Classes/**/*",
+  "resource_bundles": {
+    "CSMeModule": [
+      "CSMeModule/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "CSAccountManager": [
+
+    ],
+    "CSBaseView": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "CSUtilities": [
+
+    ],
+    "CSImageKit": [
+
+    ],
+    "AttributedString": [
+
+    ],
+    "CSCommon": [
+
+    ],
+    "CSFileKit": [
+
+    ],
+    "CSListView": [
+
+    ],
+    "CSMediator": [
+
+    ]
+  }
+}

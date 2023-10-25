@@ -1,0 +1,33 @@
+{
+  "name": "CSFileKit",
+  "version": "0.1.0",
+  "summary": "A short description of CSFileKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSFileKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSFileKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSFileKit/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "FileKit": [
+
+    ],
+    "SSZipArchive": [
+
+    ]
+  }
+}

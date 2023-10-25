@@ -1,0 +1,44 @@
+{
+  "name": "CSListView",
+  "version": "0.0.4",
+  "summary": "A short description of CSListView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSListView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSListView.git",
+    "tag": "0.0.4"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSListView/Classes/**/*",
+  "resource_bundles": {
+    "CSListView": [
+      "CSListView/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "IGListSwiftKit": [
+
+    ],
+    "CSUtilities": [
+
+    ],
+    "CSImageKit": [
+
+    ],
+    "CSCommon": [
+
+    ],
+    "CSMediator": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module CSPermission {
+  umbrella header "CSPermission-umbrella.h"
+
+  export *
+  module * { export * }
+}

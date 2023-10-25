@@ -1,0 +1,66 @@
+{
+  "name": "CSLiveModule",
+  "version": "0.3.20",
+  "summary": "A short description of CSLiveModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSLiveModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSLiveModule.git",
+    "tag": "0.3.20"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSLiveModule/Classes/**/*",
+  "static_framework": true,
+  "resource_bundles": {
+    "CSLiveModule": [
+      "CSLiveModule/Assets/**/*.{xib,png,json,xcassets}"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "Kingfisher": [
+
+    ],
+    "CSBaseView": [
+
+    ],
+    "CSAccountManager": [
+
+    ],
+    "CSNetwork": [
+
+    ],
+    "CSUtilities": [
+
+    ],
+    "CSCommon": [
+
+    ],
+    "CSPermission": [
+
+    ],
+    "CSMediator": [
+
+    ],
+    "CSSpyExpert": [
+      "~>0.2.12"
+    ],
+    "CSRobotView": [
+      "~>0.1.9"
+    ],
+    "CSListView": [
+      "~>0.0.4"
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "66C5D132-5FF3-45DB-AF4F-571991ED535E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46A9294E-B773-4ABE-B454-4022C910D9B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "handleLifeFlowDataPush()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1F2FB7F-B63E-492D-9150-AECE3BE80C7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "handleLifeFlowDataPush()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED79FDAC-0B33-43E3-B81E-AF9779010C71"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CSSpyExpert/CSSpyExpert/Classes/Network/CSNetService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "pushLifeFlow(data:closure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B68DC408-010A-4849-B682-8D6520B636D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CSSpyExpert/CSSpyExpert/Classes/Network/CSNetService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "pushLifeFlow(data:closure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D279FEF2-1961-44B9-AC07-BB3F8E6A33B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "startPushDeviceInfoTask()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D33959E0-6878-4814-B74D-84AEB81F64AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/WhisperDiarization/WhisperDiarization/Classes/WhisperDiarization.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "readDataFromFile(wavFile:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9362CF3-8034-436D-9771-CB15E2231391"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/WhisperDiarization/WhisperDiarization/Classes/WhisperDiarization.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "_transcript(wavFile:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA82D7E5-7795-46E9-991B-5041136A70E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "startPushDeviceInfoTask()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA82D7E5-7795-46E9-991B-5041136A70E0 - b019c85b9bf55ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSSpyExpert.SpyExpert.startPushDeviceInfoTask() -&gt; Swift.Bool"
+                  moduleName = "ComeSocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/li/ComeSocial/Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "BA82D7E5-7795-46E9-991B-5041136A70E0 - fdb66f525a6c371"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.AVAudioPCMBuffer, Swift.Int64) -&gt; () in CSSpyExpert.SpyExpert.startPushDeviceInfoTask() -&gt; Swift.Bool"
+                  moduleName = "ComeSocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/li/ComeSocial/Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A3DCD32-95A5-45A6-A4B7-F48767C5D27C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "handleLifeFlowDataPush()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A3DCD32-95A5-45A6-A4B7-F48767C5D27C - f7745bcdcf443163"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CSSpyExpert.SpyExpert.handleLifeFlowDataPush() -&gt; ()"
+                  moduleName = "ComeSocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/li/ComeSocial/Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "2A3DCD32-95A5-45A6-A4B7-F48767C5D27C - 36deb9cba60cc22a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (WhisperDiarization.TranscriptItem) -&gt; CSSpyExpert.Transcript in CSSpyExpert.SpyExpert.handleLifeFlowDataPush() -&gt; ()"
+                  moduleName = "ComeSocial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/li/ComeSocial/Pods/CSSpyExpert/CSSpyExpert/Classes/SpyExpert.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

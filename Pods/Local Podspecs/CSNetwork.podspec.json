@@ -1,0 +1,33 @@
+{
+  "name": "CSNetwork",
+  "version": "0.1.0",
+  "summary": "A short description of CSNetwork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSNetwork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSNetwork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSNetwork/Classes/**/*",
+  "dependencies": {
+    "Moya": [
+      "~> 15.0.0"
+    ],
+    "Moya/Combine": [
+      "~> 15.0.0"
+    ],
+    "ObjectMapper": [
+      "~> 4.2.0"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module CSWebsocket {
+  umbrella header "CSWebsocket-umbrella.h"
+
+  export *
+  module * { export * }
+}

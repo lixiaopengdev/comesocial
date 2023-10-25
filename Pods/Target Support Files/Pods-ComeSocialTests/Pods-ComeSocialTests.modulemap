@@ -1,0 +1,6 @@
+framework module Pods_ComeSocialTests {
+  umbrella header "Pods-ComeSocialTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

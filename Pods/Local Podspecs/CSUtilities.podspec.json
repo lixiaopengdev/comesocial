@@ -1,0 +1,35 @@
+{
+  "name": "CSUtilities",
+  "version": "0.1.0",
+  "summary": "A short description of CSUtilities.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSUtilities",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSUtilities.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSUtilities/Classes/**/*",
+  "resource_bundles": {
+    "CSUtilities": [
+      "CSUtilities/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "IQKeyboardManagerSwift": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  }
+}

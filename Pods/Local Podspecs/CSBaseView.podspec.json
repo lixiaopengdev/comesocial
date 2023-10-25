@@ -1,0 +1,35 @@
+{
+  "name": "CSBaseView",
+  "version": "0.1.0",
+  "summary": "A short description of CSBaseView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSBaseView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSBaseView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSBaseView/Classes/**/*",
+  "resource_bundles": {
+    "CSBaseView": [
+      "CSBaseView/Assets/*.xcassets"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "CSUtilities": [
+
+    ]
+  }
+}

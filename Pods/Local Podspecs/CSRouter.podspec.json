@@ -1,0 +1,30 @@
+{
+  "name": "CSRouter",
+  "version": "0.0.6",
+  "summary": "A short description of CSRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSRouter.git",
+    "tag": "0.0.6"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSRouter/Classes/**/*",
+  "dependencies": {
+    "URLNavigator": [
+      "~>2.4.0"
+    ],
+    "CSUtilities": [
+
+    ]
+  }
+}

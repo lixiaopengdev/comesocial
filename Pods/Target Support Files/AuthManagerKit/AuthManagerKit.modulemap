@@ -1,0 +1,6 @@
+framework module AuthManagerKit {
+  umbrella header "AuthManagerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module CSRobotView {
+  umbrella header "CSRobotView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "CSFieldModule",
+  "version": "0.1.0",
+  "summary": "A short description of CSFieldModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSFieldModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSFieldModule.git",
+    "tag": "0.1.0"
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSFieldModule/Classes/**/*",
+  "resource_bundles": {
+    "CSFieldModule": [
+      "CSFieldModule/Assets/*.xcassets"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "Dip": [
+
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "FileKit": [
+
+    ],
+    "YPImagePicker": [
+
+    ],
+    "CSBaseView": [
+
+    ],
+    "CSUtilities": [
+
+    ],
+    "CSLogger": [
+
+    ],
+    "CSFileKit": [
+
+    ],
+    "CSCommon": [
+
+    ],
+    "CSSpyExpert": [
+
+    ],
+    "CSNetwork": [
+
+    ],
+    "CSWebsocket": [
+
+    ],
+    "CSAccountManager": [
+
+    ],
+    "ComeSocialRTCService": [
+
+    ],
+    "come_social_media_tools_ios": [
+
+    ],
+    "JSEngineKit": [
+
+    ],
+    "EFQRCode": [
+
+    ],
+    "CSRobotView": [
+
+    ],
+    "CSMediator": [
+
+    ],
+    "CSImageKit": [
+
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "CSFriendsModule",
+  "version": "0.1.0",
+  "summary": "A short description of CSFriendsModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSFriendsModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSFriendsModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSFriendsModule/Classes/**/*",
+  "resource_bundles": {
+    "CSFriendsModule": [
+      "CSFriendsModule/Assets/*.xcassets"
+    ]
+  },
+  "dependencies": {
+    "CSBaseView": [
+
+    ],
+    "SnapKit": [
+
+    ],
+    "CSAccountManager": [
+
+    ],
+    "CSNetwork": [
+
+    ],
+    "CSImageKit": [
+
+    ],
+    "CSCommon": [
+
+    ],
+    "CSListView": [
+
+    ],
+    "CSMediator": [
+
+    ]
+  }
+}

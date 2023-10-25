@@ -1,0 +1,6 @@
+framework module JSEngineKit {
+  umbrella header "JSEngineKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

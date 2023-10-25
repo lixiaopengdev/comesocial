@@ -1,0 +1,6 @@
+framework module come_social_media_tools_ios {
+  umbrella header "come_social_media_tools_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

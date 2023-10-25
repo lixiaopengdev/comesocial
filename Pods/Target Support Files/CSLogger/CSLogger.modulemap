@@ -1,0 +1,6 @@
+framework module CSLogger {
+  umbrella header "CSLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

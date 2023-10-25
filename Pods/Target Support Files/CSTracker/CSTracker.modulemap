@@ -1,0 +1,6 @@
+framework module CSTracker {
+  umbrella header "CSTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

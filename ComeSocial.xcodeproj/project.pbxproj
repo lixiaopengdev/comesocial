@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6B543705E1ABAC6A2A5863 /* Pods_Ruleless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4497585945F6A8919FB42387 /* Pods_Ruleless.framework */; };
+		9087695B21D7A2821CFD0D39 /* Pods_ComeSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE7E51131AB1C10566B234B /* Pods_ComeSocial.framework */; };
+		B84575E32A7782D000E82BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84575E22A7782D000E82BA3 /* Assets.xcassets */; };
+		B84575E62A7782D000E82BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84575E42A7782D000E82BA3 /* LaunchScreen.storyboard */; };
+		B84575EC2A778A8300E82BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E042A8296BE3AB00A87C18 /* AppDelegate.swift */; };
+		B8DB21992A25CDD300800357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DB21982A25CDD300800357 /* Assets.xcassets */; };
+		B8E042A9296BE3AB00A87C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E042A8296BE3AB00A87C18 /* AppDelegate.swift */; };
+		B8E042B5296BE3AC00A87C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E042B3296BE3AC00A87C18 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DE14DB9415E5878B059F96F /* Pods-ComeSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComeSocialUITests/Pods-ComeSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A11884D8AF5810BB7E4C3A7 /* Pods-ComeSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComeSocialUITests/Pods-ComeSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C04ECF69CDA78719BB4FFB0 /* Pods-ComeSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocial.debug.xcconfig"; path = "Target Support Files/Pods-ComeSocial/Pods-ComeSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		205E57CDC2288B73C6117BCB /* Pods-Ruleless.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ruleless.release.xcconfig"; path = "Target Support Files/Pods-Ruleless/Pods-Ruleless.release.xcconfig"; sourceTree = "<group>"; };
+		238966CAA289189D79792F6C /* Pods-ComeSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocial.release.xcconfig"; path = "Target Support Files/Pods-ComeSocial/Pods-ComeSocial.release.xcconfig"; sourceTree = "<group>"; };
+		4497585945F6A8919FB42387 /* Pods_Ruleless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ruleless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A5DF4796101DE9E4ADC495 /* Pods-ComeSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocialUITests.release.xcconfig"; path = "Target Support Files/Pods-ComeSocialUITests/Pods-ComeSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		485F08181A9DFA1DED25BF61 /* Pods_ComeSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComeSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDC04B8AF8730E4F451FC8F /* Pods_ComeSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComeSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE7E51131AB1C10566B234B /* Pods_ComeSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComeSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EF83D72B2DD2541BC979479 /* Pods-ComeSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComeSocialTests/Pods-ComeSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F5D4D03FCE9CD58CB894869 /* Pods-ComeSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComeSocial/Pods-ComeSocial.release.xcconfig"; sourceTree = "<group>"; };
+		AC5CB922E81DC16DFC1939A0 /* Pods-ComeSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocialTests.release.xcconfig"; path = "Target Support Files/Pods-ComeSocialTests/Pods-ComeSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		B831A25C29C4703C004D8567 /* ComeSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ComeSocial.entitlements; sourceTree = "<group>"; };
+		B84575D72A7782CF00E82BA3 /* Ruleless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruleless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84575E22A7782D000E82BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B84575E52A7782D000E82BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B84575E72A7782D000E82BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84575EB2A77891800E82BA3 /* Ruleless.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ruleless.entitlements; sourceTree = "<group>"; };
+		B8DB21982A25CDD300800357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8E042A5296BE3AB00A87C18 /* ComeSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComeSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E042A8296BE3AB00A87C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8E042B4296BE3AC00A87C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8E042B6296BE3AC00A87C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF38656DC243A6330384CE8 /* Pods-ComeSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComeSocial/Pods-ComeSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		E9DFA6319A7ABA4B6479EEA6 /* Pods-ComeSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComeSocialTests/Pods-ComeSocialTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBC43250751A26F8D824D6DC /* Pods-ComeSocialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocialTests.debug.xcconfig"; path = "Target Support Files/Pods-ComeSocialTests/Pods-ComeSocialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F317840A427B860CCBC562C6 /* Pods-ComeSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComeSocialUITests.debug.xcconfig"; path = "Target Support Files/Pods-ComeSocialUITests/Pods-ComeSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7ED25DEE67635E0F32009A5 /* Pods-Ruleless.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ruleless.debug.xcconfig"; path = "Target Support Files/Pods-Ruleless/Pods-Ruleless.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B84575D42A7782CF00E82BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6B543705E1ABAC6A2A5863 /* Pods_Ruleless.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E042A2296BE3AB00A87C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9087695B21D7A2821CFD0D39 /* Pods_ComeSocial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FFC823E9E0DB57F1A554B3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C04ECF69CDA78719BB4FFB0 /* Pods-ComeSocial.debug.xcconfig */,
+				238966CAA289189D79792F6C /* Pods-ComeSocial.release.xcconfig */,
+				EBC43250751A26F8D824D6DC /* Pods-ComeSocialTests.debug.xcconfig */,
+				AC5CB922E81DC16DFC1939A0 /* Pods-ComeSocialTests.release.xcconfig */,
+				F317840A427B860CCBC562C6 /* Pods-ComeSocialUITests.debug.xcconfig */,
+				46A5DF4796101DE9E4ADC495 /* Pods-ComeSocialUITests.release.xcconfig */,
+				BBF38656DC243A6330384CE8 /* Pods-ComeSocial.debug.xcconfig */,
+				9F5D4D03FCE9CD58CB894869 /* Pods-ComeSocial.release.xcconfig */,
+				9EF83D72B2DD2541BC979479 /* Pods-ComeSocialTests.debug.xcconfig */,
+				E9DFA6319A7ABA4B6479EEA6 /* Pods-ComeSocialTests.release.xcconfig */,
+				1A11884D8AF5810BB7E4C3A7 /* Pods-ComeSocialUITests.debug.xcconfig */,
+				0DE14DB9415E5878B059F96F /* Pods-ComeSocialUITests.release.xcconfig */,
+				F7ED25DEE67635E0F32009A5 /* Pods-Ruleless.debug.xcconfig */,
+				205E57CDC2288B73C6117BCB /* Pods-Ruleless.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC7E00D6736CCA11C7A3C5F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EE7E51131AB1C10566B234B /* Pods_ComeSocial.framework */,
+				485F08181A9DFA1DED25BF61 /* Pods_ComeSocialTests.framework */,
+				4BDC04B8AF8730E4F451FC8F /* Pods_ComeSocialUITests.framework */,
+				4497585945F6A8919FB42387 /* Pods_Ruleless.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B84575D82A7782CF00E82BA3 /* Ruleless */ = {
+			isa = PBXGroup;
+			children = (
+				B84575EB2A77891800E82BA3 /* Ruleless.entitlements */,
+				B84575E22A7782D000E82BA3 /* Assets.xcassets */,
+				B84575E42A7782D000E82BA3 /* LaunchScreen.storyboard */,
+				B84575E72A7782D000E82BA3 /* Info.plist */,
+			);
+			path = Ruleless;
+			sourceTree = "<group>";
+		};
+		B84575ED2A778B5600E82BA3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B8E042A8296BE3AB00A87C18 /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B8E0429C296BE3AB00A87C18 = {
+			isa = PBXGroup;
+			children = (
+				B84575ED2A778B5600E82BA3 /* Common */,
+				B8E042A7296BE3AB00A87C18 /* ComeSocial */,
+				B84575D82A7782CF00E82BA3 /* Ruleless */,
+				B8E042A6296BE3AB00A87C18 /* Products */,
+				8FFC823E9E0DB57F1A554B3D /* Pods */,
+				AC7E00D6736CCA11C7A3C5F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E042A6296BE3AB00A87C18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E042A5296BE3AB00A87C18 /* ComeSocial.app */,
+				B84575D72A7782CF00E82BA3 /* Ruleless.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8E042A7296BE3AB00A87C18 /* ComeSocial */ = {
+			isa = PBXGroup;
+			children = (
+				B831A25C29C4703C004D8567 /* ComeSocial.entitlements */,
+				B8DB21982A25CDD300800357 /* Assets.xcassets */,
+				B8E042B3296BE3AC00A87C18 /* LaunchScreen.storyboard */,
+				B8E042B6296BE3AC00A87C18 /* Info.plist */,
+			);
+			path = ComeSocial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B84575D62A7782CF00E82BA3 /* Ruleless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84575E82A7782D000E82BA3 /* Build configuration list for PBXNativeTarget "Ruleless" */;
+			buildPhases = (
+				84EF9C4CCC43DF5B56A4188A /* [CP] Check Pods Manifest.lock */,
+				B84575D32A7782CF00E82BA3 /* Sources */,
+				B84575D42A7782CF00E82BA3 /* Frameworks */,
+				B84575D52A7782CF00E82BA3 /* Resources */,
+				419E4F454C02937F58DA0359 /* [CP] Embed Pods Frameworks */,
+				9742E11F89EF056D3FFFDEDD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ruleless;
+			productName = Ruleless;
+			productReference = B84575D72A7782CF00E82BA3 /* Ruleless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8E042A4296BE3AB00A87C18 /* ComeSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E042CF296BE3AC00A87C18 /* Build configuration list for PBXNativeTarget "ComeSocial" */;
+			buildPhases = (
+				7FB203B73070BB4E7208DDE5 /* [CP] Check Pods Manifest.lock */,
+				B8E042A1296BE3AB00A87C18 /* Sources */,
+				B8E042A2296BE3AB00A87C18 /* Frameworks */,
+				B8E042A3296BE3AB00A87C18 /* Resources */,
+				C2B373C68636B4574244D023 /* [CP] Embed Pods Frameworks */,
+				C92D07766A764542BF74C184 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComeSocial;
+			productName = ComeSocial;
+			productReference = B8E042A5296BE3AB00A87C18 /* ComeSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8E0429D296BE3AB00A87C18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B84575D62A7782CF00E82BA3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B8E042A4296BE3AB00A87C18 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B8E042A0296BE3AB00A87C18 /* Build configuration list for PBXProject "ComeSocial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8E0429C296BE3AB00A87C18;
+			productRefGroup = B8E042A6296BE3AB00A87C18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E042A4296BE3AB00A87C18 /* ComeSocial */,
+				B84575D62A7782CF00E82BA3 /* Ruleless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B84575D52A7782CF00E82BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84575E62A7782D000E82BA3 /* LaunchScreen.storyboard in Resources */,
+				B84575E32A7782D000E82BA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E042A3296BE3AB00A87C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E042B5296BE3AC00A87C18 /* LaunchScreen.storyboard in Resources */,
+				B8DB21992A25CDD300800357 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		419E4F454C02937F58DA0359 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruleless/Pods-Ruleless-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruleless/Pods-Ruleless-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ruleless/Pods-Ruleless-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB203B73070BB4E7208DDE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ComeSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84EF9C4CCC43DF5B56A4188A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ruleless-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9742E11F89EF056D3FFFDEDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruleless/Pods-Ruleless-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ruleless/Pods-Ruleless-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ruleless/Pods-Ruleless-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B373C68636B4574244D023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComeSocial/Pods-ComeSocial-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComeSocial/Pods-ComeSocial-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ComeSocial/Pods-ComeSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92D07766A764542BF74C184 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComeSocial/Pods-ComeSocial-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ComeSocial/Pods-ComeSocial-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ComeSocial/Pods-ComeSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B84575D32A7782CF00E82BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84575EC2A778A8300E82BA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E042A1296BE3AB00A87C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E042A9296BE3AB00A87C18 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B84575E42A7782D000E82BA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84575E52A7782D000E82BA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B8E042B3296BE3AC00A87C18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E042B4296BE3AC00A87C18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B84575E92A7782D000E82BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7ED25DEE67635E0F32009A5 /* Pods-Ruleless.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ruleless/Ruleless.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 07311537;
+				DEVELOPMENT_TEAM = KRHWJ4724Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ruleless/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ruleless;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access lets you join video calls and take profile pictures.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Turning on microphone access allows us to collect your audio input for post generation and audio call. For post generation, your audio is transcribed locally and sent to our server after you tap \"Generate\". The audio is immediately deleted from your device after transcription.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access lets you upload your own profile pictures.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Allowing app tracking will improve the customization of ads";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoworld.Ruleless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B84575EA2A7782D000E82BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205E57CDC2288B73C6117BCB /* Pods-Ruleless.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ruleless/Ruleless.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 07311537;
+				DEVELOPMENT_TEAM = KRHWJ4724Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ruleless/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Ruleless;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access lets you join video calls and take profile pictures.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Turning on microphone access allows us to collect your audio input for post generation and audio call. For post generation, your audio is transcribed locally and sent to our server after you tap \"Generate\". The audio is immediately deleted from your device after transcription.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access lets you upload your own profile pictures.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Allowing app tracking will improve the customization of ads";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoworld.Ruleless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B8E042CD296BE3AC00A87C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8E042CE296BE3AC00A87C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8E042D0296BE3AC00A87C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C04ECF69CDA78719BB4FFB0 /* Pods-ComeSocial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ComeSocial/ComeSocial.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9061115;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Q39SHZMKXB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComeSocial/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Come Social";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access lets you join video calls and take profile pictures.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Turning on microphone access allows us to collect your audio input for post generation and audio call. For post generation, your audio is transcribed locally and sent to our server after you tap \"Generate\". The audio is immediately deleted from your device after transcription.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access lets you upload your own profile pictures.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Allowing app tracking will improve the customization of ads";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnsonsmithn.comesocial.v1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = dev_profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B8E042D1296BE3AC00A87C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238966CAA289189D79792F6C /* Pods-ComeSocial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ComeSocial/ComeSocial.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9061115;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Q39SHZMKXB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComeSocial/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Come Social";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access lets you join video calls and take profile pictures.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Turning on microphone access allows us to collect your audio input for post generation and audio call. For post generation, your audio is transcribed locally and sent to our server after you tap \"Generate\". The audio is immediately deleted from your device after transcription.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo library access lets you upload your own profile pictures.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Allowing app tracking will improve the customization of ads";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnsonsmithn.comesocial.v1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = dev_profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84575E82A7782D000E82BA3 /* Build configuration list for PBXNativeTarget "Ruleless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84575E92A7782D000E82BA3 /* Debug */,
+				B84575EA2A7782D000E82BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E042A0296BE3AB00A87C18 /* Build configuration list for PBXProject "ComeSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E042CD296BE3AC00A87C18 /* Debug */,
+				B8E042CE296BE3AC00A87C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E042CF296BE3AC00A87C18 /* Build configuration list for PBXNativeTarget "ComeSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E042D0296BE3AC00A87C18 /* Debug */,
+				B8E042D1296BE3AC00A87C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E0429D296BE3AB00A87C18 /* Project object */;
+}

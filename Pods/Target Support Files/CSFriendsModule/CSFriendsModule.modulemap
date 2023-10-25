@@ -1,0 +1,6 @@
+framework module CSFriendsModule {
+  umbrella header "CSFriendsModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

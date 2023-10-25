@@ -1,0 +1,6 @@
+framework module CSMeModule {
+  umbrella header "CSMeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

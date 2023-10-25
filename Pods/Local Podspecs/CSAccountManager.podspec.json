@@ -1,0 +1,30 @@
+{
+  "name": "CSAccountManager",
+  "version": "0.1.0",
+  "summary": "A short description of CSAccountManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dongdong/CSAccountManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dongdong": "yudongdongcoder@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dongdong/CSAccountManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "CSAccountManager/Classes/**/*",
+  "dependencies": {
+    "CSUtilities": [
+
+    ],
+    "CSNetwork": [
+
+    ]
+  }
+}

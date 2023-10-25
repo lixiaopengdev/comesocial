@@ -1,0 +1,6 @@
+framework module CSLiveModule {
+  umbrella header "CSLiveModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

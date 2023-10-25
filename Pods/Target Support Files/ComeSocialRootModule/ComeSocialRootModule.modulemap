@@ -1,0 +1,6 @@
+framework module ComeSocialRootModule {
+  umbrella header "ComeSocialRootModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

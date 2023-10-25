@@ -1,0 +1,6 @@
+framework module CSBaseView {
+  umbrella header "CSBaseView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "AuthManagerKit",
+  "version": "0.1.0",
+  "summary": "A short description of AuthManagerKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/li/AuthManagerKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "li": "xiaopeng.li@neoworld.cloud"
+  },
+  "source": {
+    "git": "https://github.com/li/AuthManagerKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "AuthManagerKit/Classes/**/*",
+  "resource_bundles": {
+    "AuthManagerKit": [
+      "AuthManagerKit/Assets/**/*"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*",
+  "dependencies": {
+    "CSBaseView": [
+
+    ],
+    "CSNetwork": [
+
+    ]
+  }
+}

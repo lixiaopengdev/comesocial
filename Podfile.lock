@@ -1,0 +1,670 @@
+PODS:
+  - AgoraRtcEngine_iOS (4.1.1):
+    - AgoraRtcEngine_iOS/AIAEC (= 4.1.1)
+    - AgoraRtcEngine_iOS/AINS (= 4.1.1)
+    - AgoraRtcEngine_iOS/AudioBeauty (= 4.1.1)
+    - AgoraRtcEngine_iOS/ClearVision (= 4.1.1)
+    - AgoraRtcEngine_iOS/ContentInspect (= 4.1.1)
+    - AgoraRtcEngine_iOS/DRM (= 4.1.1)
+    - AgoraRtcEngine_iOS/FaceDetection (= 4.1.1)
+    - AgoraRtcEngine_iOS/ReplayKit (= 4.1.1)
+    - AgoraRtcEngine_iOS/RtcBasic (= 4.1.1)
+    - AgoraRtcEngine_iOS/SpatialAudio (= 4.1.1)
+    - AgoraRtcEngine_iOS/VirtualBackground (= 4.1.1)
+    - AgoraRtcEngine_iOS/VQA (= 4.1.1)
+  - AgoraRtcEngine_iOS/AIAEC (4.1.1)
+  - AgoraRtcEngine_iOS/AINS (4.1.1)
+  - AgoraRtcEngine_iOS/AudioBeauty (4.1.1)
+  - AgoraRtcEngine_iOS/ClearVision (4.1.1)
+  - AgoraRtcEngine_iOS/ContentInspect (4.1.1)
+  - AgoraRtcEngine_iOS/DRM (4.1.1)
+  - AgoraRtcEngine_iOS/FaceDetection (4.1.1)
+  - AgoraRtcEngine_iOS/ReplayKit (4.1.1)
+  - AgoraRtcEngine_iOS/RtcBasic (4.1.1)
+  - AgoraRtcEngine_iOS/SpatialAudio (4.1.1)
+  - AgoraRtcEngine_iOS/VirtualBackground (4.1.1)
+  - AgoraRtcEngine_iOS/VQA (4.1.1)
+  - Alamofire (5.8.0)
+  - AppsFlyerFramework (6.12.2):
+    - AppsFlyerFramework/Main (= 6.12.2)
+  - AppsFlyerFramework/Main (6.12.2)
+  - AttributedString (3.3.5)
+  - AuthManagerKit (0.1.0):
+    - CSBaseView
+    - CSNetwork
+    - CSTracker
+  - come_social_media_tools_ios (0.3.3)
+  - ComeSocialRootModule (0.1.0):
+    - AuthManagerKit
+    - ComeSocialRootModule/Core (= 0.1.0)
+    - CSAccountManager
+    - CSADTracker
+    - CSBaseView
+    - CSFileKit
+    - CSImageKit
+    - CSMediator
+    - CSPermission
+    - CSTracker
+    - CSWebsocket
+  - ComeSocialRootModule/Core (0.1.0):
+    - AuthManagerKit
+    - CSAccountManager
+    - CSADTracker
+    - CSBaseView
+    - CSFileKit
+    - CSImageKit
+    - CSMediator
+    - CSPermission
+    - CSTracker
+    - CSWebsocket
+  - ComeSocialRootModule/Product (0.1.0):
+    - AuthManagerKit
+    - ComeSocialRootModule/Core
+    - CSAccountManager
+    - CSADTracker
+    - CSBaseView
+    - CSFileKit
+    - CSImageKit
+    - CSMediator
+    - CSPermission
+    - CSTracker
+    - CSWebsocket
+  - ComeSocialRTCService (0.3.1):
+    - AgoraRtcEngine_iOS (~> 4.1.1)
+  - CSAccountManager (0.1.0):
+    - CSNetwork
+    - CSUtilities
+  - CSADTracker (0.1.0):
+    - AppsFlyerFramework
+  - CSBaseView (0.1.0):
+    - CSUtilities
+    - SnapKit
+  - CSCommon (0.1.0):
+    - CSBaseView
+    - CSImageKit
+    - CSNetwork
+    - SnapKit
+    - YPImagePicker
+  - CSFieldModule (0.1.0):
+    - come_social_media_tools_ios
+    - ComeSocialRTCService
+    - CSAccountManager
+    - CSBaseView
+    - CSCommon
+    - CSFileKit
+    - CSImageKit
+    - CSLogger
+    - CSMediator
+    - CSNetwork
+    - CSPermission
+    - CSRobotView
+    - CSSpyExpert
+    - CSUtilities
+    - CSWebsocket
+    - Dip
+    - EFQRCode
+    - FileKit
+    - JSEngineKit
+    - SnapKit
+    - SwiftyJSON
+    - YPImagePicker
+  - CSFileKit (0.1.0):
+    - Alamofire
+    - FileKit
+    - SSZipArchive
+  - CSFriendsModule (0.1.0):
+    - CSAccountManager
+    - CSBaseView
+    - CSCommon
+    - CSImageKit
+    - CSListView
+    - CSMediator
+    - CSNetwork
+    - SnapKit
+  - CSImageKit (0.1.0):
+    - Kingfisher
+  - CSListView (0.0.12):
+    - CSBaseView
+    - CSCommon
+    - CSImageKit
+    - CSMediator
+    - CSUtilities
+    - IGListSwiftKit
+  - CSLiveModule (0.4.21):
+    - CSAccountManager
+    - CSBaseView
+    - CSCommon
+    - CSListView (~> 0.0.4)
+    - CSMediator
+    - CSNetwork
+    - CSPermission
+    - CSRobotView (~> 0.2.1)
+    - CSSpyExpert (~> 0.2.13)
+    - CSTimeDewMoreViewController
+    - CSTimeDewPosting
+    - CSTracker
+    - CSUtilities
+    - DSF_QRCode (~> 16.1.1)
+    - DTPhotoViewerController (~> 3.1.2)
+    - Kingfisher
+    - NVActivityIndicatorView
+    - RealmSwift (~> 10)
+    - SnapKit
+  - CSLogger (0.1.0):
+    - XCGLogger (~> 7.0.1)
+  - CSMediator (0.0.4):
+    - Swinject
+    - URLNavigator
+  - CSMeModule (0.0.29):
+    - AttributedString
+    - CSAccountManager
+    - CSBaseView
+    - CSCommon
+    - CSFileKit
+    - CSImageKit
+    - CSListView
+    - CSMediator
+    - CSPermission
+    - CSTimeDewMoreViewController
+    - CSUtilities
+    - DTPhotoViewerController (~> 3.1.2)
+    - SnapKit
+  - CSNetwork (0.1.0):
+    - Moya (~> 15.0.0)
+    - Moya/Combine (~> 15.0.0)
+    - ObjectMapper (~> 4.2.0)
+  - CSPermission (0.1.0):
+    - CSCommon
+    - CSRobotView
+    - CSUtilities
+    - Permission/Camera
+    - Permission/Microphone
+    - Permission/Notifications
+    - Permission/Photos
+  - CSRobotView (0.2.1):
+    - FLAnimatedImage (~> 1.0)
+    - SnapKit
+    - YYImage
+  - CSRouter (0.0.6):
+    - CSUtilities
+    - URLNavigator (~> 2.4.0)
+  - CSSpyExpert (0.2.21):
+    - Alamofire
+    - come_social_media_tools_ios (~> 0.3.3)
+    - CSUtilities
+    - WhisperDiarization
+  - CSTimeDewMoreViewController (0.1.0):
+    - CSBaseView
+    - CSListView
+    - CSMediator
+    - CSTracker
+  - CSTimeDewPosting (0.1.6):
+    - come_social_media_tools_ios
+    - CSAccountManager
+    - CSBaseView
+    - CSCommon
+    - CSMediator
+    - CSNetwork
+    - CSPermission
+    - CSSpyExpert
+    - CSTracker
+    - CSUtilities
+    - SnapKit
+  - CSTracker (0.1.0):
+    - Mixpanel-swift
+  - CSUtilities (0.1.0):
+    - IQKeyboardManagerSwift
+    - SnapKit
+  - CSWebsocket (0.1.0):
+    - CSUtilities
+  - Dip (7.1.1)
+  - DoraemonKit/Core (3.1.3):
+    - FMDB
+    - GCDWebServer
+    - GCDWebServer/WebDAV
+    - GCDWebServer/WebUploader
+  - DoraemonKit/WithMLeaksFinder (3.1.3):
+    - DoraemonKit/Core
+    - FBRetainCycleDetector
+  - DSF_QRCode (16.1.1):
+    - SwiftImageReadWrite (~> 1.1.6)
+    - SwiftQRCodeGenerator
+  - DTPhotoViewerController (3.1.2)
+  - EFQRCode (6.2.1):
+    - swift_qrcodejs (~> 2.2.2)
+  - FBRetainCycleDetector (0.1.4)
+  - FileKit (5.2.0)
+  - FLAnimatedImage (1.0.17)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebDAV (3.5.4):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - IGListDiffKit (4.1.0)
+  - IGListKit (4.1.0):
+    - IGListDiffKit (= 4.1.0)
+  - IGListSwiftKit (4.1.0):
+    - IGListKit (= 4.1.0)
+  - IQKeyboardManagerSwift (6.5.12)
+  - JSEngineKit (0.1.0)
+  - Kingfisher (7.9.1)
+  - Mixpanel-swift (4.1.4):
+    - Mixpanel-swift/Complete (= 4.1.4)
+  - Mixpanel-swift/Complete (4.1.4)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (4.2.0)
+  - onnxruntime-c (1.15.1)
+  - onnxruntime-objc (1.15.1):
+    - onnxruntime-objc/Core (= 1.15.1)
+  - onnxruntime-objc/Core (1.15.1):
+    - onnxruntime-c (= 1.15.1)
+  - Permission/Camera (3.1.2):
+    - Permission/Core
+  - Permission/Core (3.1.2)
+  - Permission/Microphone (3.1.2):
+    - Permission/Core
+  - Permission/Notifications (3.1.2):
+    - Permission/Core
+  - Permission/Photos (3.1.2):
+    - Permission/Core
+  - PlainPocketFFT (0.0.9)
+  - PocketFFT (0.0.1)
+  - PryntTrimmerView (4.0.2)
+  - Realm (10.42.1):
+    - Realm/Headers (= 10.42.1)
+  - Realm/Headers (10.42.1)
+  - RealmSwift (10.42.1):
+    - Realm (= 10.42.1)
+  - RosaKit (0.0.11):
+    - PlainPocketFFT (~> 0.0.9)
+    - PocketFFT (~> 0.0.1)
+  - SnapKit (5.6.0)
+  - SpeakerEmbeddingForiOS (0.3.2):
+    - onnxruntime-c
+    - onnxruntime-objc
+  - SSZipArchive (2.4.3)
+  - SteviaLayout (5.1.2)
+  - SwiftImageReadWrite (1.1.6)
+  - SwiftQRCodeGenerator (1.0.3)
+  - SwiftyJSON (5.0.1)
+  - Swinject (2.8.3)
+  - URLNavigator (2.4.1)
+  - WhisperDiarization (0.3.9):
+    - ObjectMapper
+    - RosaKit
+    - SpeakerEmbeddingForiOS (~> 0.3.2)
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
+  - YPImagePicker (5.5.6):
+    - PryntTrimmerView (= 4.0.2)
+    - SteviaLayout (= 5.1.2)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - "AuthManagerKit (from `git@github.com:NeoWorldTeam/AuthManagerKit.git`, tag `0.0.10`)"
+  - come_social_media_tools_ios (~> 0.3.3)
+  - "ComeSocialRootModule (from `git@github.com:NeoWorldTeam/ComeSocialRootModule.git`, tag `0.0.15`)"
+  - "ComeSocialRootModule/Product (from `git@github.com:NeoWorldTeam/ComeSocialRootModule.git`, tag `0.0.15`)"
+  - ComeSocialRTCService (~> 0.3.1)
+  - "CSAccountManager (from `git@github.com:NeoWorldTeam/CSAccountManager.git`, tag `0.0.4`)"
+  - "CSADTracker (from `git@github.com:NeoWorldTeam/CSADTracker.git`, tag `0.0.2`)"
+  - "CSBaseView (from `git@github.com:NeoWorldTeam/CSBaseView.git`, tag `0.0.10`)"
+  - "CSCommon (from `git@github.com:NeoWorldTeam/CSCommon.git`, tag `0.0.12`)"
+  - "CSFieldModule (from `git@github.com:NeoWorldTeam/CSFieldModule.git`, tag `0.0.20`)"
+  - "CSFileKit (from `git@github.com:NeoWorldTeam/CSFileKit.git`, tag `0.0.1`)"
+  - "CSFriendsModule (from `git@github.com:NeoWorldTeam/CSFriendsModule.git`, tag `0.0.15`)"
+  - "CSImageKit (from `git@github.com:NeoWorldTeam/CSImageKit.git`, tag `0.0.2`)"
+  - "CSListView (from `git@github.com:NeoWorldTeam/CSListView.git`, tag `0.0.12`)"
+  - "CSLiveModule (from `git@github.com:NeoWorldTeam/CSLiveModule.git`, tag `0.4.21`)"
+  - "CSLogger (from `git@github.com:NeoWorldTeam/CSLogger.git`, tag `0.0.1`)"
+  - "CSMediator (from `git@github.com:NeoWorldTeam/CSMediator.git`, tag `0.0.4`)"
+  - "CSMeModule (from `git@github.com:NeoWorldTeam/CSMeModule.git`, tag `0.0.29`)"
+  - "CSNetwork (from `git@github.com:NeoWorldTeam/CSNetwork.git`, tag `0.0.4`)"
+  - "CSPermission (from `git@github.com:NeoWorldTeam/CSPermission.git`, tag `0.0.6`)"
+  - "CSRouter (from `git@github.com:NeoWorldTeam/CSRouter.git`, tag `0.0.6`)"
+  - "CSSpyExpert (from `git@github.com:NeoWorldTeam/CSSpyExpert.git`, tag `0.2.21`)"
+  - "CSTimeDewMoreViewController (from `git@github.com:NeoWorldTeam/CSTimeDewMoreViewController.git`, tag `0.1.0`)"
+  - "CSTimeDewPosting (from `git@github.com:NeoWorldTeam/CSTimeDewPosting.git`, tag `0.1.6`)"
+  - "CSTracker (from `git@github.com:NeoWorldTeam/CSTracker.git`, tag `0.0.5`)"
+  - "CSUtilities (from `git@github.com:NeoWorldTeam/CSUtilities.git`, tag `0.0.15`)"
+  - "CSWebsocket (from `git@github.com:NeoWorldTeam/CSWebsocket.git`, tag `0.0.2`)"
+  - DoraemonKit/Core
+  - DoraemonKit/WithMLeaksFinder
+  - "FBRetainCycleDetector (from `git@github.com:facebook/FBRetainCycleDetector.git`)"
+  - "IGListDiffKit (from `git@github.com:yudongdongcoder/IGListKit.git`, tag `4.9.0`)"
+  - "IGListKit (from `git@github.com:yudongdongcoder/IGListKit.git`, tag `4.9.0`)"
+  - "IGListSwiftKit (from `git@github.com:yudongdongcoder/IGListKit.git`, tag `4.9.0`)"
+  - "JSEngineKit (from `git@github.com:NeoWorldTeam/JSEngineKit.git`, branch `develop`)"
+  - WhisperDiarization (~> 0.3.9)
+  - "YPImagePicker (from `git@github.com:yudongdongcoder/YPImagePicker.git`, tag `5.5.6`)"
+
+SPEC REPOS:
+  "git@github.com:NeoWorldTeam/ComeSocialSpecs.git":
+    - come_social_media_tools_ios
+    - ComeSocialRTCService
+    - CSRobotView
+    - DTPhotoViewerController
+    - SpeakerEmbeddingForiOS
+    - WhisperDiarization
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - AgoraRtcEngine_iOS
+    - Alamofire
+    - AppsFlyerFramework
+    - AttributedString
+    - Dip
+    - DoraemonKit
+    - DSF_QRCode
+    - EFQRCode
+    - FileKit
+    - FLAnimatedImage
+    - FMDB
+    - GCDWebServer
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Mixpanel-swift
+    - Moya
+    - NVActivityIndicatorView
+    - ObjcExceptionBridging
+    - ObjectMapper
+    - onnxruntime-c
+    - onnxruntime-objc
+    - Permission
+    - PlainPocketFFT
+    - PocketFFT
+    - PryntTrimmerView
+    - Realm
+    - RealmSwift
+    - RosaKit
+    - SnapKit
+    - SSZipArchive
+    - SteviaLayout
+    - SwiftImageReadWrite
+    - SwiftQRCodeGenerator
+    - SwiftyJSON
+    - Swinject
+    - URLNavigator
+    - XCGLogger
+    - YYImage
+
+EXTERNAL SOURCES:
+  AuthManagerKit:
+    :git: "git@github.com:NeoWorldTeam/AuthManagerKit.git"
+    :tag: 0.0.10
+  ComeSocialRootModule:
+    :git: "git@github.com:NeoWorldTeam/ComeSocialRootModule.git"
+    :tag: 0.0.15
+  CSAccountManager:
+    :git: "git@github.com:NeoWorldTeam/CSAccountManager.git"
+    :tag: 0.0.4
+  CSADTracker:
+    :git: "git@github.com:NeoWorldTeam/CSADTracker.git"
+    :tag: 0.0.2
+  CSBaseView:
+    :git: "git@github.com:NeoWorldTeam/CSBaseView.git"
+    :tag: 0.0.10
+  CSCommon:
+    :git: "git@github.com:NeoWorldTeam/CSCommon.git"
+    :tag: 0.0.12
+  CSFieldModule:
+    :git: "git@github.com:NeoWorldTeam/CSFieldModule.git"
+    :tag: 0.0.20
+  CSFileKit:
+    :git: "git@github.com:NeoWorldTeam/CSFileKit.git"
+    :tag: 0.0.1
+  CSFriendsModule:
+    :git: "git@github.com:NeoWorldTeam/CSFriendsModule.git"
+    :tag: 0.0.15
+  CSImageKit:
+    :git: "git@github.com:NeoWorldTeam/CSImageKit.git"
+    :tag: 0.0.2
+  CSListView:
+    :git: "git@github.com:NeoWorldTeam/CSListView.git"
+    :tag: 0.0.12
+  CSLiveModule:
+    :git: "git@github.com:NeoWorldTeam/CSLiveModule.git"
+    :tag: 0.4.21
+  CSLogger:
+    :git: "git@github.com:NeoWorldTeam/CSLogger.git"
+    :tag: 0.0.1
+  CSMediator:
+    :git: "git@github.com:NeoWorldTeam/CSMediator.git"
+    :tag: 0.0.4
+  CSMeModule:
+    :git: "git@github.com:NeoWorldTeam/CSMeModule.git"
+    :tag: 0.0.29
+  CSNetwork:
+    :git: "git@github.com:NeoWorldTeam/CSNetwork.git"
+    :tag: 0.0.4
+  CSPermission:
+    :git: "git@github.com:NeoWorldTeam/CSPermission.git"
+    :tag: 0.0.6
+  CSRouter:
+    :git: "git@github.com:NeoWorldTeam/CSRouter.git"
+    :tag: 0.0.6
+  CSSpyExpert:
+    :git: "git@github.com:NeoWorldTeam/CSSpyExpert.git"
+    :tag: 0.2.21
+  CSTimeDewMoreViewController:
+    :git: "git@github.com:NeoWorldTeam/CSTimeDewMoreViewController.git"
+    :tag: 0.1.0
+  CSTimeDewPosting:
+    :git: "git@github.com:NeoWorldTeam/CSTimeDewPosting.git"
+    :tag: 0.1.6
+  CSTracker:
+    :git: "git@github.com:NeoWorldTeam/CSTracker.git"
+    :tag: 0.0.5
+  CSUtilities:
+    :git: "git@github.com:NeoWorldTeam/CSUtilities.git"
+    :tag: 0.0.15
+  CSWebsocket:
+    :git: "git@github.com:NeoWorldTeam/CSWebsocket.git"
+    :tag: 0.0.2
+  FBRetainCycleDetector:
+    :git: "git@github.com:facebook/FBRetainCycleDetector.git"
+  IGListDiffKit:
+    :git: "git@github.com:yudongdongcoder/IGListKit.git"
+    :tag: 4.9.0
+  IGListKit:
+    :git: "git@github.com:yudongdongcoder/IGListKit.git"
+    :tag: 4.9.0
+  IGListSwiftKit:
+    :git: "git@github.com:yudongdongcoder/IGListKit.git"
+    :tag: 4.9.0
+  JSEngineKit:
+    :branch: develop
+    :git: "git@github.com:NeoWorldTeam/JSEngineKit.git"
+  YPImagePicker:
+    :git: "git@github.com:yudongdongcoder/YPImagePicker.git"
+    :tag: 5.5.6
+
+CHECKOUT OPTIONS:
+  AuthManagerKit:
+    :git: "git@github.com:NeoWorldTeam/AuthManagerKit.git"
+    :tag: 0.0.10
+  ComeSocialRootModule:
+    :git: "git@github.com:NeoWorldTeam/ComeSocialRootModule.git"
+    :tag: 0.0.15
+  CSAccountManager:
+    :git: "git@github.com:NeoWorldTeam/CSAccountManager.git"
+    :tag: 0.0.4
+  CSADTracker:
+    :git: "git@github.com:NeoWorldTeam/CSADTracker.git"
+    :tag: 0.0.2
+  CSBaseView:
+    :git: "git@github.com:NeoWorldTeam/CSBaseView.git"
+    :tag: 0.0.10
+  CSCommon:
+    :git: "git@github.com:NeoWorldTeam/CSCommon.git"
+    :tag: 0.0.12
+  CSFieldModule:
+    :git: "git@github.com:NeoWorldTeam/CSFieldModule.git"
+    :tag: 0.0.20
+  CSFileKit:
+    :git: "git@github.com:NeoWorldTeam/CSFileKit.git"
+    :tag: 0.0.1
+  CSFriendsModule:
+    :git: "git@github.com:NeoWorldTeam/CSFriendsModule.git"
+    :tag: 0.0.15
+  CSImageKit:
+    :git: "git@github.com:NeoWorldTeam/CSImageKit.git"
+    :tag: 0.0.2
+  CSListView:
+    :git: "git@github.com:NeoWorldTeam/CSListView.git"
+    :tag: 0.0.12
+  CSLiveModule:
+    :git: "git@github.com:NeoWorldTeam/CSLiveModule.git"
+    :tag: 0.4.21
+  CSLogger:
+    :git: "git@github.com:NeoWorldTeam/CSLogger.git"
+    :tag: 0.0.1
+  CSMediator:
+    :git: "git@github.com:NeoWorldTeam/CSMediator.git"
+    :tag: 0.0.4
+  CSMeModule:
+    :git: "git@github.com:NeoWorldTeam/CSMeModule.git"
+    :tag: 0.0.29
+  CSNetwork:
+    :git: "git@github.com:NeoWorldTeam/CSNetwork.git"
+    :tag: 0.0.4
+  CSPermission:
+    :git: "git@github.com:NeoWorldTeam/CSPermission.git"
+    :tag: 0.0.6
+  CSRouter:
+    :git: "git@github.com:NeoWorldTeam/CSRouter.git"
+    :tag: 0.0.6
+  CSSpyExpert:
+    :git: "git@github.com:NeoWorldTeam/CSSpyExpert.git"
+    :tag: 0.2.21
+  CSTimeDewMoreViewController:
+    :git: "git@github.com:NeoWorldTeam/CSTimeDewMoreViewController.git"
+    :tag: 0.1.0
+  CSTimeDewPosting:
+    :git: "git@github.com:NeoWorldTeam/CSTimeDewPosting.git"
+    :tag: 0.1.6
+  CSTracker:
+    :git: "git@github.com:NeoWorldTeam/CSTracker.git"
+    :tag: 0.0.5
+  CSUtilities:
+    :git: "git@github.com:NeoWorldTeam/CSUtilities.git"
+    :tag: 0.0.15
+  CSWebsocket:
+    :git: "git@github.com:NeoWorldTeam/CSWebsocket.git"
+    :tag: 0.0.2
+  FBRetainCycleDetector:
+    :commit: 11d898602fc7335b847a6b8a6d4bf9c7250927d1
+    :git: "git@github.com:facebook/FBRetainCycleDetector.git"
+  IGListDiffKit:
+    :git: "git@github.com:yudongdongcoder/IGListKit.git"
+    :tag: 4.9.0
+  IGListKit:
+    :git: "git@github.com:yudongdongcoder/IGListKit.git"
+    :tag: 4.9.0
+  IGListSwiftKit:
+    :git: "git@github.com:yudongdongcoder/IGListKit.git"
+    :tag: 4.9.0
+  JSEngineKit:
+    :commit: 7bc88c9f02e4fad24b70e99988009de7ef784a99
+    :git: "git@github.com:NeoWorldTeam/JSEngineKit.git"
+  YPImagePicker:
+    :git: "git@github.com:yudongdongcoder/YPImagePicker.git"
+    :tag: 5.5.6
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: df216a18a01c30fba926565d889c9542319252ac
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  AppsFlyerFramework: 6eb4d89d2eb9a6632317f1055b359d9fd85fd5ff
+  AttributedString: 6d2d9d65310119556c3b5c6e4ea8d1ca339b703c
+  AuthManagerKit: 0b654d0a840e15f6fe31b5349848eaa4eec8cd83
+  come_social_media_tools_ios: b08efbc70ea93f54ce220dfb565b453db7ee3d84
+  ComeSocialRootModule: dd49f3213d67b3e6416cb938fd7db362603c20f8
+  ComeSocialRTCService: da641648558dfca43192b8e44ad1131a266387d6
+  CSAccountManager: 9101e7dc6bf8c305e110e1d05f783d5e9757b16b
+  CSADTracker: d198d4b9db60fae7300ae90cc0a9237ad95535db
+  CSBaseView: f2ad39ed45337d705b7565772bd70a9ecb346c32
+  CSCommon: 8d9c6a08b8504cf49b9b693cb390b24b15243a99
+  CSFieldModule: 1655994576d3768351a097e759eae01e97d381c8
+  CSFileKit: f0393cac760ee3d2e66dd27c94a6d1a97ee4392a
+  CSFriendsModule: a4c60b56795c13562ed32cdef97e3174783cd390
+  CSImageKit: 18391c9e9e0a9c513c2e333a7243379adf03571d
+  CSListView: 51bc8207154c1cbd7d83aeecb2001949b48316f4
+  CSLiveModule: 29bda91004e2d20889aec46bac5578a41272ff92
+  CSLogger: e3effa0923174f46a8e02e2a5270f561d424d3b6
+  CSMediator: 72a259d33e694f729108cd555a5efa8a2092cb5b
+  CSMeModule: c4267871c6bfa7ed394c90f651406fa15069b7f3
+  CSNetwork: 615595f4db4947e2d97c069f84b7bf0830c275a9
+  CSPermission: 976e568d53fe9f4918b27c352e9eca0483d9fcc5
+  CSRobotView: c204ecbd68f3630cea0501860b27c235cd5a8dae
+  CSRouter: 4ae3346ed2960721a43cfb398b6121cab09864a5
+  CSSpyExpert: 2f645c93592e2aa026cc72c11a7b1920676f1c2b
+  CSTimeDewMoreViewController: 146f9325b59ca68cc31074a69976a2e1eb86942b
+  CSTimeDewPosting: 7f65141c98f634dbec93b3c7471fc47c33b977b5
+  CSTracker: 397a7cfcbdeca01fdb2f09b2e83e2e5c1a56db56
+  CSUtilities: 9844e40b7ee8145ef630827c544d6031c1497dd7
+  CSWebsocket: 0e07e28e0875a2281c3ee3365649576a5a1f1b20
+  Dip: 6bebb09d50f88633039ce2c9fe5bc56d387b492f
+  DoraemonKit: 7448814a80d9ca56bc8db9105c464b7ec2e62623
+  DSF_QRCode: 68a32a5fef1183c070449ebe6fef832dcc6a68b9
+  DTPhotoViewerController: 72ddfb17dc7f898f1841744cfba024c53a04c189
+  EFQRCode: a4d39ec3466b68dffa71de3b5caef7c9ceefdc53
+  FBRetainCycleDetector: 46daef95c2dfa9be34b53087edf6a8f34e4c749c
+  FileKit: 10bfd8a3023a0b09f24c9f49546cbbddf43fd464
+  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  IGListDiffKit: 24551db12d6e200ec44fe3c8828810a14a107277
+  IGListKit: 6a51d7dd161fa566c869c506da22a4517599c20a
+  IGListSwiftKit: ba721c6a5226690df7c08d3e828a39a924342bb5
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  JSEngineKit: a743737c9fbd4ee15661381d1e29db8c87a41d88
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  Mixpanel-swift: 4991762c97c3535ce4e67c395a93e40ab7b666f7
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  onnxruntime-c: ebdcfd8650bcbd10121c125262f99dea681b92a3
+  onnxruntime-objc: ae7acec7a3d03eaf072d340afed7a35635c1c2a6
+  Permission: 4821359fb4d4367fb59aa16df38fbba5722ac842
+  PlainPocketFFT: 3763f37fba0737e457ed1a3b9b7bfa70c00ff213
+  PocketFFT: cdbe7ef5b7cd08520655d85d03d701b5ba35fdec
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  Realm: f433b80a05f68575e88364d6fcc6234965ccc5af
+  RealmSwift: 757e1416e2314f7e1543abdb2aa65b311d7b6545
+  RosaKit: 6e28b09f5eb990148a401e0c4b4ff0c207bd6569
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SpeakerEmbeddingForiOS: a8b811ebf2291d2f41f7fa71f0966e88478a58ba
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
+  SteviaLayout: 05424e528d643657d39ce72c786e4adf13cfc5f2
+  SwiftImageReadWrite: 3508ec60fea50876964055b63558fdd02f132ba3
+  SwiftQRCodeGenerator: c5cdef1603699784b07af0fd3cc1c2f45ac26ada
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
+  URLNavigator: 9e277a422a5c131a3e37970c2558e0e866cc22bd
+  WhisperDiarization: 0a344007088cfbc8ef7779b9312d36f01ec42b08
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
+  YPImagePicker: 06ead81184a15c02a4d369ff7d66a38450ada97c
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: d567a1546420c26e2cc85631860b9daa6e371f55
+
+COCOAPODS: 1.12.1
